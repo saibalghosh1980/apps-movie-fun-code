@@ -1,4 +1,4 @@
-apps-movie-fun-code#!/bin/bash
+#!/bin/bash
 
 set -e +x
 
