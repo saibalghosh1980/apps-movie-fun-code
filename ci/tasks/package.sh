@@ -14,7 +14,7 @@ if [ $jar_count -gt 1 ]; then
   exit 1
 fi
 
-find attendee-service-source/target -type f -name *.war -exec cp "{}" package-output/moviefun.war \;
+find apps-movie-fun-code/target -type f -name *.war -exec cp "{}" package-output/moviefun.war \;
 
 echo "Done packaging"
 exit 0
